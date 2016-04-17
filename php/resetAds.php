@@ -25,7 +25,7 @@ url VARCHAR(100) NOT NULL
 )";
 
 if ($conn->query($sql) === TRUE) {
-    header("Location: /WebProject/home.php");
+    header("Location: /WebProject/homePage.php");
     exit();
 } else {
     echo "Error creating table: " . $conn->error;

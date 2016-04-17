@@ -34,7 +34,7 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand page-scroll" href="../home.php">Home</a>
+            <a class="navbar-brand page-scroll" href="homePage.php">Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,7 +44,7 @@
 
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden">
-                    <a class="page-scroll" href="../home.php"></a>
+                    <a class="page-scroll" href="homePage.php"></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="about.php">About</a>
@@ -133,11 +133,6 @@
         //$Urls[1]="www.google.com";
         if (count($Urls)===0) header("Location: //www.youtube.com/watch?v=dQw4w9WgXcQ");
         $get=rand(0,$rows-1);
-        //echo "rand".$get;
-        //echo "<br/>";
-        //echo count($Urls);
-        //echo "<br/>";
-        //echo $rows;
         header("Location: //$Urls[$get]");
         ?>
         <p>

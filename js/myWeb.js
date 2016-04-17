@@ -30,21 +30,21 @@
         xhttp.open("GET", "ajax/data.xml", true);
         xhttp.send();
     });
-    $ad.on('click', function() {
-        window.open("/WebProject/php/display.php");
+    $ad.on('mouseover', function() {
+        //window.open("/WebProject/php/display.php");
         xhttp.onreadystatechange = function() {
             if (xhttp.readyState == 4 && xhttp.status == 200) {
                 var found = false;
                 var useIndex = -1;
                 //window.open("//"+xhttp.responseText);
-                window.open("/WebProject/php/display.php");
-                "WebProject/php/display.php".getElementById("fish").innerHTML="<p>"+xhttp.responseText+"</p>";
+                document.getElementById("ad").href="//"+xhttp.responseText;
             }
         };
-        xhttp.open("GET", "php/getUrl.php", true);
+        xhttp.open("GET", "../php/getUrl.php", true);
         xhttp.send();
         //}
     });
+
 
 
 })(jQuery);

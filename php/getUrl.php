@@ -28,7 +28,8 @@ if ($db->query($query) ) {
         $ans = $row['url'];
         die ($row['url']);
     else:
-        die ("There are no ads!");
+        die("//www.youtube.com/watch?v=dQw4w9WgXcQ");
+        //die ("There are no ads!");
     endif;
 
 } else {

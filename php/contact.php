@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="../home.php">Home</a>
+            <a class="navbar-brand page-scroll" href="homePage.php">Home</a>
 
         </div>
 
@@ -44,7 +44,7 @@
 
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden">
-                    <a class="page-scroll" href="../home.php"></a>
+                    <a class="page-scroll" href="homePage.php"></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="about.php">About</a>

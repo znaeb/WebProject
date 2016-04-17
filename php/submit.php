@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand page-scroll" href="../home.php">Home</a>
+            <a class="navbar-brand page-scroll" href="homePage.php">Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,7 +43,7 @@
 
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden">
-                    <a class="page-scroll" href="../home.php"></a>
+                    <a class="page-scroll" href="homePage.php"></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="about.php">About</a>
@@ -106,8 +106,8 @@
 </div>
 
 <aside id="sidebar" class="sidebar">
-    <a href="winner.php" target="_blank">
-        <img src="../images/annoyingad.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+    <a  target="_blank" class="ad" id="ad">
+        <img src="../images/annoyingad.gif" class="ad" alt="HTML5 Icon" style="width:100%;height: 100%;">
     </a>
 </aside>
 
@@ -115,6 +115,8 @@
 
 
 <script src="../js/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="../js/myWeb.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/site.js"></script>
 <script src="../js/jquery.easing.min.js"></script>
