@@ -10,6 +10,7 @@
 
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -77,23 +78,38 @@
         $username = "root";
         $password = "";
         $dbname = "myDatabase";
-        $conn = new mysqli($servername, $username, $password, $dbname);
+        $db = new mysqli($servername, $username, $password, $dbname);
         // Check connection
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
+        if ($db->connect_error) {
+            die("Connection failed: " . $db->connect_error);
         }
         //$sql="INSERT INTO urls (url) VALUES ('$nameInput')";
         //$sth = $sql->prepare("SELECT url");
         //$sth->execute();
 
         $query = "SELECT * FROM urls";
-        $result = $conn->query($query);
+        $result = $db->query($query);
         $rows = $result->num_rows;
         var_dump($result);
         $Urls[$rows]=array();
 
 
-        if ($conn->query($query) ) {
+        if ($db->query($query) ) {
+            $query = "select url from urls order by rand() limit 1";
+            $result = $db->query($query);
+            $rows = $result->num_rows;
+            if ($rows >= 1):
+                header('Content-type: text/xml');
+                echo "<?xml version='1.0' encoding='utf-8'?>";
+                echo "<Word>";
+                $row = $result->fetch_assoc();
+                $ans = $row["word"];
+                echo "<value>$ans</value>";
+                echo "</Word>";
+            else:
+                die ("DB Error");
+            endif;
+            /*
             echo "connect successfully";
             echo "<br/>";
             for ($i = 0; $i < $rows; $i++):
@@ -104,13 +120,14 @@
                 //endforeach;
                 echo "<br/>";
             endfor;
+            */
         } else {
 
-            echo "conn error: " . $conn->error;
+            echo "conn error: " . $db->error;
         }
 
 
-        $conn->close();
+        $db->close();
         //test
         //$Urls[0]="www.youtube.com/watch?v=dQw4w9WgXcQ";
         //$Urls[1]="www.google.com";
@@ -126,17 +143,8 @@
         <p>
 
         </p>
-
-
     </div>
-
 </div>
-
-
-
-
-
-
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/site.js"></script>

@@ -23,110 +23,115 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<nav class="navbar navbar-default top-nav-collapse" role="navigation">
-    <div class="container">
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+    <nav class="navbar navbar-default top-nav-collapse" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
 
-            </button>
-            <a class="navbar-brand page-scroll" href="home.php">Home</a>
+                </button>
+                <a class="navbar-brand page-scroll" href="home.php">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                <ul class="nav navbar-nav">
+
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="home.php"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="php/about.php">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="php/contact.php">Contact Information</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
+    <div class="overlap-content" id="display">
+        I'm the modal window!
+        <?php
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        ?>
 
-            <ul class="nav navbar-nav">
-
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a class="page-scroll" href="home.php"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="php/about.php">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="php/contact.php">Contact Information</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container -->
-</nav>
+    <div id="content" class="content">
+        <header class="entry-header">
+            <h1 class="entry-title">So many Things <i>Aren't</i> happening here</h1>
+        </header>
+        <div class="DisplayWords">
 
+            <hr>
+            <p><b>There are words here</b></p>
 
-        <div id="content" class="content">
-                    <header class="entry-header">
-                        <h1 class="entry-title">So many Things <i>Aren't</i> happening here</h1>
-                    </header>
-                    <div class="DisplayWords">
+            <p>
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato <a title="Potato" href="html/submit.html" style="color:black">Potato</a> Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
+                Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
 
-                        <hr>
-                        <p><b>There are words here</b></p>
+            </p>
 
-                        <p>
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato <a title="Potato" href="html/submit.html" style="color:black">Potato</a> Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-
-                        </p>
-
-
-                    </div>
 
         </div>
+
+    </div>
 
 
         <aside id="sidebar" class="sidebar">
@@ -143,16 +148,24 @@
 
         </aside>
         <aside id="sidebar" class="sidebar">
-            <a href="php/winner.php" target="_blank">
-                <img src="images/annoyingad.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+            <a  target="_blank" class="ad">
+                <img src="images/annoyingad.gif" class="ad" alt="HTML5 Icon" style="width:100%;height: 100%;">
             </a>
+
+            <aside id="noAd" class="noAd">
+
+                    <h3><input class="noAdButton" type="button" value="Reset Ads" ></h3>
+            </aside>
         </aside>
 
+
 <script src="js/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/site.js"></script>
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/scrolling-nav.js"></script>
+<script src="js/myWeb.js"></script>
 
 </body>
 </html>
