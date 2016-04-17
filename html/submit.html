@@ -4,12 +4,14 @@ BNN8@pitt.edu>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>What do you want to add to the text file?</title>
+    <title>Submit url</title>
     <link rel="shortcut icon"
-          href="happyFace.jpeg" />
-    <link href="bootstrap.css" rel="stylesheet">
-    <link rel='stylesheet' href='Style.css' type='text/css' media='all'/>
+          href="../images/happyFace.jpeg" />
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel='stylesheet' href='../css/Style.css' type='text/css' media='all'/>
 </head>
+<body>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 <nav class="navbar navbar-default top-nav-collapse" role="navigation">
@@ -22,7 +24,7 @@ BNN8@pitt.edu>
                 <span class="icon-bar"></span>
 
             </button>
-            <a class="navbar-brand page-scroll" href="home.php">Home</a>
+            <a class="navbar-brand page-scroll" href="../home.php">Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,13 +34,13 @@ BNN8@pitt.edu>
 
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden">
-                    <a class="page-scroll" href="home.php"></a>
+                    <a class="page-scroll" href="../home.php"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="about.php">About</a>
+                    <a class="page-scroll" href="../php/about.php">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="contact.php">Contact Information</a>
+                    <a class="page-scroll" href="../php/contact.php">Contact Information</a>
                 </li>
             </ul>
         </div>
@@ -49,11 +51,11 @@ BNN8@pitt.edu>
 
 
 <div id="content" class="content">
-<form action="text.php">
-    Please type what you want to add to the text file:<br>
-    <input type="text" name="name"><br>
-    <input type="submit" value="Submit">
-</form>
-    </div>
+    <form action="../php/submit.php">
+        Please insert url:<br>
+        <input type="text" name="name"><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
 </body>
 </html>

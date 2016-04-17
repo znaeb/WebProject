@@ -13,15 +13,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page 1 - Realm of Madness</title>
+    <title>Realm of Madness</title>
     <link rel="shortcut icon"
-          href="happyFace.jpeg" />
-    <link href="bootstrap.css" rel="stylesheet">
-    <link rel='stylesheet' href='Style.css' type='text/css' media='all'/>
+          href="../images/happyFace.jpeg" />
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel='stylesheet' href='../css/Style.css' type='text/css' media='all'/>
 
 </head>
 
 <body>
+
 
 <nav class="navbar navbar-default " role="navigation">
     <div class="container">
@@ -32,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="home.php">Home</a>
+            <a class="navbar-brand page-scroll" href="../home.php">Home</a>
 
         </div>
 
@@ -43,7 +44,7 @@
 
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden">
-                    <a class="page-scroll" href="home.php"></a>
+                    <a class="page-scroll" href="../home.php"></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="about.php">About</a>
@@ -59,19 +60,17 @@
 </nav>
 
 
-
-
-
 <div id="content" class="content">
     <header class="entry-header">
-        <h1 class="entry-title">You are at some page or something!!!!!!!!</h1>
+        <h1 class="entry-title">How to Contact Me</h1>
     </header>
     <div class="DisplayWords">
 
         <hr>
-        <p><strong>There aren't any words here</strong></p>
 
-        <p> I lied </p>
+        <p>
+            Please Don't.
+        </p>
 
 
     </div>
@@ -80,26 +79,23 @@
 
 
 <aside id="sidebar" class="sidebar">
+    <p><a title="This way to 1" href="1.php">Go to 1</a></p>
     <p><a title="This way to 2" href="2.php">Go to 2</a></p>
 
 
     <p>
 
         Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
-        Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
+        Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar and more Sidebar nom nom eating all the side bar
     </p>
 </aside>
-<aside id="sidebar" class="sidebar">
-    <a href="winner.php" target="_blank">
-        <img src="annoyingad.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
-    </a>
-</aside>
 
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/site.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/scrolling-nav.js"></script>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/site.js"></script>
+<script src="../js/jquery.easing.min.js"></script>
+<script src="../js/scrolling-nav.js"></script>
 </body>
 </html>

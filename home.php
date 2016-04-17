@@ -15,9 +15,9 @@
     <meta charset="UTF-8">
     <title>Realm of Madness</title>
     <link rel="shortcut icon"
-          href="happyFace.jpeg" />
-    <link href="bootstrap.css" rel="stylesheet">
-    <link rel='stylesheet' href='Style.css' type='text/css' media='all'/>
+          href="images/happyFace.jpeg" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel='stylesheet' href='css/Style.css' type='text/css' media='all'/>
 
 </head>
 
@@ -46,10 +46,10 @@
                     <a class="page-scroll" href="home.php"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="about.php">About</a>
+                    <a class="page-scroll" href="php/about.php">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="contact.php">Contact Information</a>
+                    <a class="page-scroll" href="php/contact.php">Contact Information</a>
                 </li>
             </ul>
         </div>
@@ -71,7 +71,7 @@
                         <p>
                             Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
                             Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
-                            Potato Potato Potato Potato <a title="Potato" href="submit.html" style="color:black">Potato</a> Potato Potato
+                            Potato Potato Potato Potato <a title="Potato" href="html/submit.html" style="color:black">Potato</a> Potato Potato
                             Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
                             Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
                             Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato Potato
@@ -130,21 +130,21 @@
 
 
         <aside id="sidebar" class="sidebar">
-            <p><a title="This way to 1" href="1.php">Go to 1</a></p>
-            <p><a title="This way to 2" href="2.php">Go to 2</a></p>
+            <p><a title="This way to 1" href="php/1.php">Go to 1</a></p>
+            <p><a title="This way to 2" href="php/2.php">Go to 2</a></p>
 
 
             <p>
 
                 Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
                 Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
-            <p><a title="Text Text Text" href="text.php">Add to text file</a></p>
+            <p><a title="Text Text Text" href="php/text.php">Add to text file</a></p>
             </p>
 
         </aside>
         <aside id="sidebar" class="sidebar">
-            <a href="winner.php" target="_blank">
-                <img src="annoyingad.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+            <a href="php/winner.php" target="_blank">
+                <img src="images/annoyingad.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
             </a>
         </aside>
 
