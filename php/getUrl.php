@@ -29,19 +29,9 @@ if ($db->query($query) ) {
         die ($row['url']);
     else:
         die("//www.youtube.com/watch?v=dQw4w9WgXcQ");
-        //die ("There are no ads!");
     endif;
-
 } else {
-
     echo "conn error: " . $db->error;
 }
-
-
 $db->close();
-
-//if (count($Urls)===0) header("Location: //www.youtube.com/watch?v=dQw4w9WgXcQ");
-//$get=rand(0,$rows-1);
-
-//header("Location: //$Urls[$get]");
 ?>

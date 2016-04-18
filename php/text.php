@@ -11,7 +11,6 @@ BNN8@pitt.edu>
     <link rel='stylesheet' href='../css/Style.css' type='text/css' media='all'/>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
 <nav class="navbar navbar-default top-nav-collapse" role="navigation">
     <div class="container">
         <div class="navbar-header page-scroll">
@@ -20,16 +19,12 @@ BNN8@pitt.edu>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-
             </button>
             <a class="navbar-brand page-scroll" href="homePage.php">Home</a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-
             <ul class="nav navbar-nav">
-
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                 <li class="hidden">
                     <a class="page-scroll" href="homePage.php"></a>
@@ -46,8 +41,6 @@ BNN8@pitt.edu>
     </div>
     <!-- /.container -->
 </nav>
-
-
 <div id="content" class="content">
 <?php
 /**
@@ -64,16 +57,12 @@ $fileName = "text.txt";
 $file = fopen("text.txt", "a+");
 $runs=0;
 $nameInput=rtrim($_GET['name']);
-
 if(mb_strlen($nameInput)===0){
     header("Location: text.html");
     exit();
 }
-
 while (($name = fgets($file)) !== false) {
     $runs++;
-
-
 }
 if($registered===false){
     if($runs===0) fwrite($file, $nameInput);
@@ -81,11 +70,11 @@ if($registered===false){
         fwrite($file, "\r\n".$nameInput);
     }
     echo "Congratulations  ".$nameInput.", has been entered into the text file!!";
-
 }
 fclose($file);
 ?>
 <form action="../html/text.html">
     <input type="submit" value="Return">
 </form>
-    </div>
+</div>
+</body>

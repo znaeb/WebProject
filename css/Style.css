@@ -79,12 +79,28 @@ of those sections to manage the look and feel of the site. */
 }
 .noAd{
     background: rgb(255, 222, 201);
+    border:0px solid rgba(1,1,1,1);
+    width: auto;
+    padding:2px 2px 2px 2px;
+    text-align: center;
+    margin:0 0 0 0;
+}
+.noAdButton{
+    background: rgb(255, 171, 157);
     border:1px solid rgba(0,0,0,1);
     width: auto;
     text-align: center;
 }
-.noAdButton{
-    background: rgb(199, 233, 255);
+.newAd{
+    background: rgb(181, 185, 255);
+    border:1px solid rgba(0,0,0,1);
+    width: auto;
+    text-align: center;
+    padding:2px 2px 2px 2px;
+    margin:0 0 0 0;
+}
+.newAdButton{
+    background: rgb(170, 255, 179);
     border:1px solid rgba(0,0,0,1);
     width: auto;
     text-align: center;
