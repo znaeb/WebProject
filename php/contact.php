@@ -18,36 +18,9 @@
     <link rel='stylesheet' href='../css/Style.css' type='text/css' media='all'/>
 </head>
 <body>
-<nav class="navbar navbar-default " role="navigation">
-    <div class="container">
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="homePage.php">Home</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a class="page-scroll" href="homePage.php"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="about.php">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="contact.php">Contact Information</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
+<?php
+    include "_navbar.php";
+?>
 <div id="content" class="content">
     <header class="entry-header">
         <h1 class="entry-title">How to Contact Me</h1>
