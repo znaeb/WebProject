@@ -30,8 +30,8 @@
 			}
 			
 			//Raptor Vars
-			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="raptor.png" />'
-			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="raptor-sound.mp3" /><source src="raptor-sound.ogg" /></audio>';	
+			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="../Raptorize-Kit/raptor.png" />'
+			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="../Raptorize-Kit/raptor-sound.mp3" /><source src="raptor-sound.ogg" /></audio>';
 			var locked = false;
 			
 			//Append Raptor and Style
@@ -42,7 +42,7 @@
 				"bottom": "-700px",
 				"right" : "0",
 				"display" : "block"
-			})
+			});
 			
 			// Animating Code
 			function init() {
@@ -59,7 +59,7 @@
 				// Movement Hilarity	
 				raptor.animate({
 					"bottom" : "0"
-				}, function() { 			
+				}, function() {
 					$(this).animate({
 						"bottom" : "-130px"
 					}, 100, function() {
@@ -70,7 +70,7 @@
 							raptor = $('#elRaptor').css({
 								"bottom": "-700px",
 								"right" : "0"
-							})
+							});
 							locked = false;
 						})
 					});
@@ -98,9 +98,31 @@
 			        }
 			    }, true);
 	
+			}else if(options.enterOn == 'mouseover'){
+				_this.bind('mouseover', function(e) {
+					e.preventDefault();
+					if(!locked) {
+						init();
+
+					}
+				})
+			}else if(options.enterOn == 'chance'){
+				var rand=Math.random();
+				if(rand<0.5) {
+
+				}
+				//alert(rand);
+
+				_this.bind('mouseover', function (e) {
+					e.preventDefault();
+					if (!locked) {
+						init();
+					}
+				})
+
 			}
 			
         });//each call
-    }//orbit plugin call
+    };//orbit plugin call
 })(jQuery);
 

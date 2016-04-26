@@ -55,8 +55,15 @@
     }
     $flipout.on('click',function(){
         flip();
+
     });
-    $body.on('mouseover',function(){
+    $(window).load(function() {
+
+        $('header').raptorize({
+            'enterOn' : 'chance'
+        });
+    });
+    /*$body.on('mouseover',function(){
 
         var num=9;
         num=window.scrollMaxX;
@@ -69,11 +76,13 @@
             window.event.clientY/document.body.clientHeight>0.1&&
             window.event.clientY/document.body.clientHeight<0.25){
             if(Math.random()<0.1){
+
                 flip();
             }
 
 
         }
     });
+    */
 
 })(jQuery);

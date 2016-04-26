@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff40e77-9c6f-4ac1-8db4-b580c91aef31" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Raptorize-Kit/raptor-psd.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Raptorize-Kit/raptor-sound.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Raptorize-Kit/raptor-sound.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Raptorize-Kit/raptor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Raptorize-Kit/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Raptorize-Kit/jquery-1.4.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Raptorize-Kit/jquery.raptorize.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/_script.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Style.css" afterPath="$PROJECT_DIR$/css/Style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Raptorize-Kit/jquery.raptorize.1.0.js" afterPath="$PROJECT_DIR$/Raptorize-Kit/jquery.raptorize.1.0.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/myWeb.js" afterPath="$PROJECT_DIR$/js/myWeb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/_navbar.php" afterPath="$PROJECT_DIR$/php/_navbar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/1.php" afterPath="$PROJECT_DIR$/php/1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/2.php" afterPath="$PROJECT_DIR$/php/2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/about.php" afterPath="$PROJECT_DIR$/php/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/contact.php" afterPath="$PROJECT_DIR$/php/contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/homePage.php" afterPath="$PROJECT_DIR$/php/homePage.php" />
     </list>
     <ignored path="WebProject.iws" />
@@ -42,91 +39,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="errordocument.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/errordocument.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homePage.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homePage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/homePage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.076923">
-              <caret line="115" column="64" selection-start-line="115" selection-start-column="64" selection-end-line="115" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.7287234">
+              <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="111" selection-end-column="6" />
               <folding>
                 <element signature="e#7#92#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#aside#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1461646046059" expanded="true" signature="177:196" placeholder="..." />
+                <marker date="1461697720158" expanded="true" signature="177:196" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Raptorize-Kit/index.html">
+      <file leaf-file-name="2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="25" />
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="46" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getUrl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/getUrl.php">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="50" />
-              <folding>
-                <marker date="1460939656478" expanded="true" signature="352:370" placeholder="SELECT * FRO... urls" />
-                <marker date="1460939656478" expanded="true" signature="493:537" placeholder="select url f... urls" />
-              </folding>
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="45" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myWeb.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/myWeb.js">
+      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30847457">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.raptorize.1.0.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Raptorize-Kit/jquery.raptorize.1.0.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding>
-                <marker date="1461643446545" expanded="true" signature="888:901" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="raptor-psd.psd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Raptorize-Kit/raptor-psd.psd">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/Style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-75.84615">
-              <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+            <state vertical-scroll-proportion="-1.1538461">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="44" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -176,8 +127,6 @@
         <option value="$PROJECT_DIR$/php/getUrl.php" />
         <option value="$PROJECT_DIR$/php/resetAds.php" />
         <option value="$PROJECT_DIR$/php/submit.php" />
-        <option value="$PROJECT_DIR$/php/1.php" />
-        <option value="$PROJECT_DIR$/php/2.php" />
         <option value="$PROJECT_DIR$/php/text.php" />
         <option value="$PROJECT_DIR$/error404.html" />
         <option value="$PROJECT_DIR$/php/errordocument.html" />
@@ -186,14 +135,17 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/php/home.php" />
-        <option value="$PROJECT_DIR$/php/about.php" />
-        <option value="$PROJECT_DIR$/php/contact.php" />
         <option value="$PROJECT_DIR$/php/errordocument.php" />
         <option value="$PROJECT_DIR$/php/_navbar.php" />
         <option value="$PROJECT_DIR$/css/Style.css" />
-        <option value="$PROJECT_DIR$/Raptorize-Kit/jquery.raptorize.1.0.js" />
-        <option value="$PROJECT_DIR$/php/homePage.php" />
         <option value="$PROJECT_DIR$/js/myWeb.js" />
+        <option value="$PROJECT_DIR$/Raptorize-Kit/jquery.raptorize.1.0.js" />
+        <option value="$PROJECT_DIR$/php/_script.php" />
+        <option value="$PROJECT_DIR$/php/homePage.php" />
+        <option value="$PROJECT_DIR$/php/1.php" />
+        <option value="$PROJECT_DIR$/php/2.php" />
+        <option value="$PROJECT_DIR$/php/about.php" />
+        <option value="$PROJECT_DIR$/php/contact.php" />
       </list>
     </option>
   </component>
@@ -207,8 +159,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="122" />
-    <option name="y" value="54" />
+    <option name="x" value="24" />
+    <option name="y" value="13" />
     <option name="width" value="1040" />
     <option name="height" value="728" />
   </component>
@@ -353,9 +305,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\WebProject\php" />
       <recent name="C:\xampp\htdocs\WebProject\Raptorize-Kit" />
       <recent name="C:\xampp\htdocs\WebProject" />
-      <recent name="C:\xampp\htdocs\WebProject\php" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\WebProject\Raptorize-Kit" />
@@ -409,7 +361,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="54" width="1040" height="728" extended-state="0" />
+    <frame x="24" y="13" width="1040" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2265625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -448,13 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6758" column="1" selection-start-line="6758" selection-start-column="1" selection-end-line="6758" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -633,25 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="22" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/resetAds.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding>
-            <marker date="1460939990550" expanded="true" signature="377:402" placeholder="DROP TABLE I... " />
-            <marker date="1460939990550" expanded="true" signature="467:514" placeholder="CREATE TABLE... urls" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/RSA Encryption Calculator.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1897163">
@@ -685,60 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.76923">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2109929">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153">
-          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4822695">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/submit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80496454">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-          <folding>
-            <marker date="1460940001265" expanded="true" signature="480:523" placeholder="INSERT INTO urls... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/site.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65425533">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -753,39 +629,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/Style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-75.84615">
-          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/errordocument.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/getUrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <marker date="1460939656478" expanded="true" signature="352:370" placeholder="SELECT * FRO... urls" />
-            <marker date="1460939656478" expanded="true" signature="493:537" placeholder="select url f... urls" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Raptorize-Kit/jquery-1.4.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Raptorize-Kit/raptor.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Raptorize-Kit/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12588653">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-75.84615">
+          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -795,47 +663,132 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Raptorize-Kit/raptor.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/homePage.php">
+    <entry file="file://$PROJECT_DIR$/js/myWeb.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.076923">
-          <caret line="115" column="64" selection-start-line="115" selection-start-column="64" selection-end-line="115" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
           <folding>
-            <element signature="e#7#92#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#aside#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1461646046059" expanded="true" signature="177:196" placeholder="..." />
+            <element signature="e#0#44#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Raptorize-Kit/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Raptorize-Kit/jquery.raptorize.1.0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461643446545" expanded="true" signature="888:901" placeholder="..." />
+            <marker date="1461697553097" expanded="true" signature="888:901" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/myWeb.js">
+    <entry file="file://$PROJECT_DIR$/php/_script.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30847457">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="-18.307692">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#0#44#0" expanded="false" />
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="46" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="45" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1538461">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="44" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/errordocument.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/getUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.76923">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1460939656478" expanded="true" signature="352:370" placeholder="SELECT * FRO... urls" />
+            <marker date="1460939656478" expanded="true" signature="493:537" placeholder="select url f... urls" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/resetAds.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.76923">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <marker date="1460939990550" expanded="true" signature="377:402" placeholder="DROP TABLE I... " />
+            <marker date="1460939990550" expanded="true" signature="467:514" placeholder="CREATE TABLE... urls" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39716312">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8421986">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+          <folding>
+            <marker date="1460940001265" expanded="true" signature="480:523" placeholder="INSERT INTO urls... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/homePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7287234">
+          <caret line="109" column="4" selection-start-line="109" selection-start-column="4" selection-end-line="111" selection-end-column="6" />
+          <folding>
+            <element signature="e#7#92#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#aside#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1461697720158" expanded="true" signature="177:196" placeholder="..." />
           </folding>
         </state>
       </provider>

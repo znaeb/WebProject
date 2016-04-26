@@ -18,33 +18,30 @@
     <link rel='stylesheet' href='../css/Style.css' type='text/css' media='all'/>
 </head>
 <body>
-<?php
-    include "_navbar.php";
-?>
-<div id="content" class="content">
-    <header class="entry-header">
-        <h1 class="entry-title">How to Contact Me</h1>
-    </header>
-    <div class="DisplayWords">
-        <hr>
-        <p>
-            Please Don't.
-        </p>
+    <?php
+        include "_navbar.php";
+    ?>
+    <div id="content" class="content">
+        <header class="entry-header">
+            <h1 class="entry-title">How to Contact Me</h1>
+        </header>
+        <div class="DisplayWords">
+            <hr>
+            <p>
+                Please Don't.
+            </p>
+        </div>
     </div>
-</div>
-<aside id="sidebar" class="sidebar">
-    <p><a title="This way to 1" href="1.php">Go to 1</a></p>
-    <p><a title="This way to 2" href="2.php">Go to 2</a></p>
-    <p>
-        Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
-        Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar and more Sidebar nom nom eating all the side bar
-    </p>
-</aside>
-<script src="../js/jquery.js"></script>
-<script src="../js/myWeb.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/site.js"></script>
-<script src="../js/jquery.easing.min.js"></script>
-<script src="../js/scrolling-nav.js"></script>
+    <aside id="sidebar" class="sidebar">
+        <p><a title="This way to 1" href="1.php">Go to 1</a></p>
+        <p><a title="This way to 2" href="2.php">Go to 2</a></p>
+        <p>
+            Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
+            Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar and more Sidebar nom nom eating all the side bar
+        </p>
+    </aside>
+    <?php
+        include "_script.php";
+    ?>
 </body>
 </html>
