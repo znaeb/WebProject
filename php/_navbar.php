@@ -30,6 +30,9 @@
                 <li>
                     <a class="page-scroll" href="contact.php">Contact Information</a>
                 </li>
+                <li>
+                    <a class="flipout" id="flipout">Flipout</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

@@ -114,7 +114,7 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 }
 .ad{
-
+    cursor: pointer;
 }
 .overlap{
     position: absolute;
@@ -147,7 +147,9 @@ of those sections to manage the look and feel of the site. */
     border:1px solid rgba(0,0,0,1);
     font-size:14px;
     float:left
-
+}
+.flipout{
+    cursor: pointer;
 }
 
 
