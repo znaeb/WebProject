@@ -1,0 +1,10 @@
+
+    #ErrorDocument 403 http://www.your-domain.com/403.html
+    #ErrorDocument 404 http://localhost/Webproject/php/homePage.php
+    #ErrorDocument 404 (.*) /errordocument.html
+    #ErrorDocument 500 http://www.your-domain.com/500.html
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule (.*) /Webproject/php/errordocument.php

@@ -6,6 +6,7 @@
     $noAd    = $(".noAdButton");
     $newAd    = $(".newAdButton");
     $ad    = $(".ad");
+    $potato    = $(".content");
     var xhttp = new XMLHttpRequest();
     var toggle=false;
     var string="i";
@@ -33,5 +34,11 @@
         };
         xhttp.open("GET", "../php/getUrl.php", true);
         xhttp.send();
+    });
+    $potato.on('click',function(){
+        if(!$potato.hasClass("reverse"))
+            $potato.addClass(("reverse"));
+        else
+            $potato.removeClass("reverse");
     });
 })(jQuery);

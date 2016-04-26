@@ -42,6 +42,7 @@
     </p>
 </aside>
 <script src="../js/jquery.js"></script>
+<script src="../js/myWeb.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/site.js"></script>
 <script src="../js/jquery.easing.min.js"></script>
