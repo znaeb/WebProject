@@ -1,0 +1,13 @@
+{"menu": {
+  "id": "file-search",
+  "value": "File",
+  "php": {
+    "files": [
+      {"value": "about"},
+      {"value": "contact"},
+      {"value": "home"}
+      {"value": "1"}
+      {"value": "2"}
+    ]
+  }
+}}

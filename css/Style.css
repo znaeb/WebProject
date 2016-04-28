@@ -16,10 +16,10 @@ html {
 }
 
 .reverse{
+    animation-duration: 4s;
 
     -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
-    animation-duration: 4s;
     width:100%;
 }
 .navbar-default .navbar-brand{
@@ -84,6 +84,7 @@ of those sections to manage the look and feel of the site. */
     margin:6px 1% 10px 1%;
     border:1px solid rgba(0,0,0,1);
     float:right;
+    opacity: 0.8;
 }
 .noAd{
     background: rgb(255, 222, 201);
@@ -146,12 +147,121 @@ of those sections to manage the look and feel of the site. */
     margin:6px 1% 10px 1%;
     border:1px solid rgba(0,0,0,1);
     font-size:14px;
-    float:left
+    float:left;
+    opacity: 0.8;
 }
 .flipout{
     cursor: pointer;
 }
+.flexsearch-wrapper {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+    position: static;
+}
 
+.flexsearch-form {
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.flexsearch-input-wrapper {
+    padding: 0 66px 0 0;
+    overflow: hidden;
+}
+
+.flexsearch-input {
+    width: 100%;
+}
+
+.flexsearch {
+    padding: 10px;
+}
+
+.flexsearch-input {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 60px;
+    width: 100%;
+    padding: 0 46px 0 10px;
+    border-color: #888;
+    border-radius:5px;
+    border-style: groove;
+    border-width: 1px;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 26px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.flexsearch-submit {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: none;
+    margin-right: 5px;
+    background: transparent;
+    color: #888;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+.flexsearch-dropdown-wrapper {
+
+}
+.flexsearch-dropdown {
+    position:static;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: auto;
+    width: 100%;
+    padding: 0 46px 0 10px;
+    color: #242424;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 26px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: none;
+}
+
+
+.flexsearch-input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.flexsearch-input:focus.flexsearch-submit {
+    color: #333;
+}
+
+/*.flexsearch-input:focus.flexsearch-dropdown {
+  color: #333;
+}*/
+
+.flexsearch-submit:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+input:-moz-placeholder {
+    color: #888;
+}
 
 
 html{box-sizing:border-box;}

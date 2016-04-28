@@ -85,27 +85,29 @@
             </p>
         </div>
     </div>
-        <aside id="sidebar" class="sidebar">
-            <p><a title="This way to 1" href="1.php">Go to 1</a></p>
-            <p><a title="This way to 2" href="2.php">Go to 2</a></p>
-            <p>
-                Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
-                Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
-            <p><a title="Text Text Text" href="text.php">Add to text file</a></p>
-            </p>
+    <aside id="sidebar" class="sidebar">
+        <p><a title="This way to 1" href="1.php">Go to 1</a></p>
+        <p><a title="This way to 2" href="2.php">Go to 2</a></p>
+        <p>
+            Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
+            Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
+        </p>
+        <p><a title="Text Text Text" href="text.php">Add to text file</a></p>
+
+    </aside>
+    <aside id="sidebar" class="sidebar">
+        <a  target="_blank" class="ad" id="ad">
+            <img src="../images/annoyingad.gif" class="ad" alt="HTML5 Icon" style="width:100%;height: 100%;" href="www.youtube.com/watch?v=dQw4w9WgXcQ">
+        </a>
+        <aside id="noAd" class="noAd">
+            <h3><input class="noAdButton" type="button" value="Reset Ads" ></h3>
+            <h5><input class="newAdButton" type="button" value="Get an Ad?" ></h5>
         </aside>
-        <aside id="sidebar" class="sidebar">
-            <a  target="_blank" class="ad" id="ad">
-                <img src="../images/annoyingad.gif" class="ad" alt="HTML5 Icon" style="width:100%;height: 100%;">
-            </a>
-            <aside id="noAd" class="noAd">
-                <h3><input class="noAdButton" type="button" value="Reset Ads" ></h3>
-                <h5><input class="newAdButton" type="button" value="Get an Ad?" ></h5>
-            </aside>
-            <aside id="newAd" class="newAd">
-                <h3><input class="newAdButton" type="button" value="Do You Want an Ad?" ></h3>
-            </aside>
+        <aside id="newAd" class="newAd">
+            <h3><input class="newAdButton" type="button" value="Do You Want an Ad?" ></h3>
         </aside>
+    </aside>
+
 
     <?php
         include "_script.php";
