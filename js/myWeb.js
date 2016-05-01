@@ -56,7 +56,6 @@
     }
     $flipout.on('click',function(){
         flip();
-
     });
     $(window).load(function() {
 
@@ -64,65 +63,7 @@
             'enterOn' : 'chance'
         });
     });
-
     var xhttp = new XMLHttpRequest();
-    /*$.getJSON( "../json/search.json", function( data ) {
-        //var $files = [];
-        //var $interests = [];
-        //$files = data;
-
-
-        //alert( "JSON Data: " + $.parseJSON() );
-        $("#mainForm").keyup(function (input) {
-            alert(data);
-            alert("Handler for .keydown() called." + data); //haha success
-            //alert(document.getElementsByClassName("flexsearch-input")[0].value);
-            var $contentsHolder = document.getElementById("search");
-            var $contents = document.getElementById("search").value;
-            if ($contents != "") {
-
-                var searchList = [];
-                //alert(document.getElementById("search").value); //search-box content
-                //alert($interests[0]	);
-                for (var $i = 0; $i < $interests.length; $i++) {
-                    var $location = $interests[$i].toLowerCase().search($contents.toLowerCase());
-                    if ($location === 0)searchList.push($interests[$i]);
-                }
-                for ($i = 0; $i < $files.length; $i++) {
-                    $location = $files[$i].toLowerCase().search($contents.toLowerCase());
-                    if ($location === 0)searchList.push($files[$i]);
-                }
-                //alert(searchList); just need to display it now
-                //var $drop=document.getElementById("search");
-                var $search = document.getElementById('autoComp');
-                $search.innerHTML = "";
-
-                if (searchList.length > 0) {
-                    //$search.innerHTML = "<select name=\"sometext\" multiple=\"multiple\" class=\"flexsearch-dropdown\">";
-                    //$contentsHolder.value.replace($contentsHolder.value,"pp");
-                    for ($i = 0; $i < searchList.length; $i++) {
-                        $search.innerHTML = $search.innerHTML + "\n<a href='https://www.google.com/#q=" + searchList[$i] + "'>" + searchList[$i] + "</a><br>";
-                        //$contentsHolder.value.replace($contentsHolder.value,"pp");
-                        //"<option>text2</option>" +
-                        //"<option>text3</option>" +
-                        //"<option>text4</option>" +
-                        //"<option>text5</option>" +
-                    }
-                    //$search.innerHTML = $search.innerHTML + "\n</select>";
-                    // 	$contentsHolder.value.replace($contentsHolder.value,"pp");
-                    //$contentsHolder.value="pp";
-                }
-            } else {
-                $search = document.getElementById('autoComp');
-                $search.innerHTML = "";
-                $search.hide();
-            }
-
-            xhttp.open("GET", "../xml/search.xml", true);
-            xhttp.send();
-        });
-    });
-    */
     var xmlDoc = $.parseXML( "../xml/search.xml" ),
         $xml = $( xmlDoc );
     console.log($xml);
@@ -130,18 +71,12 @@
         xhttp.onreadystatechange = function() {
             if (xhttp.readyState == 4 && xhttp.status == 200) {
                 //console.log(input.target.value);
-                document.getElementById("autoComp").style.display="block";
-                //if (toggle === false) {
+                var $autocomp = document.getElementById("autoComp");
+                $autocomp.style.display="block";
+                $autocomp.innerHTML="pop";
                 var string = "";
                 var xmlDoc = $.parseXML( xhttp.responseText ),
                     $xml = $( xmlDoc );
-                /*var xmlDoc = $.parseXML( xhttp.responseText ),
-                    $xml = $( xmlDoc ),
-                    $problem = $xml.find( "php" );
-
-                var xml_node = $('php',$xml);
-                var int1=0;
-                */
                 var xml_node=$.parseXML(xhttp.responseText);
                 console.log(xhttp.responseText);
                 $(xml_node).find('file').each(function(){
@@ -149,8 +84,6 @@
                     var question=$(this).find('question').text().trim();
                     string=string+"<div class='problem"+int1+"'<h4>"+question+"</h4><br>";
                     string+="<select name='select"+int1+"' class='select' onChange='check(this,"+int1+")'>";
-
-
                     var answers=$(this).find('answer');
                     var correct=$(this).find('correct').text().trim();
                     string+="<option class='hidden'>"+""+"</option>";
@@ -165,33 +98,10 @@
                         "<h3 class='incorrectResponse'>incorrect...</h3></div>";
                     int1++;
                 });
-
                 document.getElementById("empty").innerHTML =string;
             }
         };
         xhttp.open("GET", "../xml/search.xml", true);
         xhttp.send();
     });
-    /*$body.on('mouseover',function(){
-
-        var num=9;
-        num=window.scrollMaxX;
-        num=document.body.clientHeight; //max Y
-        //alert(num);
-        //alert("X: "+window.event.clientX+"\nY: "+window.event.clientY);
-        var $content=document.getElementById("content");
-
-        if (window.event.clientX/document.body.clientWidth<0.7&&
-            window.event.clientY/document.body.clientHeight>0.1&&
-            window.event.clientY/document.body.clientHeight<0.25){
-            if(Math.random()<0.1){
-
-                flip();
-            }
-
-
-        }
-    });
-    */
-
 })(jQuery);

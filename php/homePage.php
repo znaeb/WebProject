@@ -19,7 +19,6 @@
     <link rel='stylesheet' href='../css/Style.css' type='text/css' media='all'/>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
     <?php
         include "_navbar.php";
     ?>
@@ -93,7 +92,6 @@
             Sidebar Sidebar Sidebar Sidebar Sidebar Sidebar
         </p>
         <p><a title="Text Text Text" href="text.php">Add to text file</a></p>
-
     </aside>
     <aside id="sidebar" class="sidebar">
         <a  target="_blank" class="ad" id="ad">
@@ -107,11 +105,8 @@
             <h3><input class="newAdButton" type="button" value="Do You Want an Ad?" ></h3>
         </aside>
     </aside>
-
-
     <?php
         include "_script.php";
     ?>
-
 </body>
 </html>
